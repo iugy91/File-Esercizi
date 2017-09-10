@@ -1,0 +1,6 @@
+git Init --> inizializzare la folder 
+echo miamiaomaio > file.txt --> scrive nel file file.txt miamioamioim
+git add file --> aggiunge il file under the control of git we want it to take care of this file and chack it for future modifications
+git status --> verifica se dentro la repo tutti i files sono stati aggiunti al controllo di git.
+git commit --m "miaomao" --> commit 
+git comando --help --> tispiega cosa fa quel comando 
