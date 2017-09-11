@@ -4,3 +4,29 @@ git add file --> aggiunge il file under the control of git we want it to take ca
 git status --> verifica se dentro la repo tutti i files sono stati aggiunti al controllo di git.
 git commit --m "miaomao" --> commit 
 git comando --help --> tispiega cosa fa quel comando 
+touch nomenuovo file --> crea nuovo file
+git reset HEAD nomefile --> lo toglie dallo stating area 
+git log --> mostra tutti i commit effettuati. FIGOOOo
+git config user.mane "EugenioBertini"
+git config user.email "eugenio.miao@bao.com"
+git branch --> mostra tuti i branch e quello verde asteriscato è quellin cui sono.
+git branch nomebranche --> crea un nuovo branch 
+git checkout nome brach --> Switch del branch 
+git log --graph --decorate --pretty=oneline --abbrev-commit --> un bel log dei vari commit con braches
+git config --global alias.<nome dell'alias> 'il comando che dev'essere sostituito con il pisello alias'
+git merge branchsopra
+git clone clona da github a git
+git remote add origin urlo del github 
+git push --> Pusha il contenuto della folder git nel git hub PERO' DEL BRANCH DA CUI STO LANCIANDO LI COMANDO 
+git fetch --> invece sincronizza tutti i branch.ma non applica le modifiche che lo fai tramite il prosismo comando 
+git pull nome cartella(origin o upstream)--> aplica alla versione in locale il changelog da server 
+git push -u origin nomebranchnuovo --> replica il branch presente in locale sul server.
+git remote show origin --> mostra 
+git remote -v --> mostra le "directory 
+git remote add  upstream https://github.com/wakaleo/game-of-life  --> nel caso di forks, con questo comando applichi alla versione locale un puntamento alla folder originale -_> "upstream
+git config --list --> mostra tutte le configurazioni 
+git reset --hard (o --soft) HEAD~3 --> resetta in maniera dura facendo puntare la HEAD ad un commit acvvenuto tre volte fa.
+git blame file --> mostra lo storico di quel dato file-
+git show nomecommit --> mostra esattamente cosa è stato fatto in qyuel commiti li.
+git cherry-pick nomecommit --> permette di appicare un commit di un altro  branch nel mio. spiegazione a pagina 91
+
