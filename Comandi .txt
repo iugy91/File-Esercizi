@@ -30,3 +30,8 @@ git blame file --> mostra lo storico di quel dato file-
 git show nomecommit --> mostra esattamente cosa è stato fatto in qyuel commiti li.
 git cherry-pick nomecommit --> permette di appicare un commit di un altro  branch nel mio. spiegazione a pagina 91
 
+
+git log --> mostra tutti i commit 
+git reset --hard sha1 commit --> ripristina commit richiesto 
+git push origin master --force  --> ti caga dentro in commit che vuoi su gihub
+
